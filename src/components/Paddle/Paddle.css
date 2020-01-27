@@ -1,0 +1,17 @@
+.paddle {
+  height: 100px;
+  width: 15px;
+  border-radius: 8px;
+  border: 2px solid white;
+  position: absolute;
+
+  left: 20px;
+  top: 50%;
+}
+
+.paddle.player2 {
+  background-color: null;
+  border: 2px solid white;
+  left: auto;
+  right: 20px;
+}
